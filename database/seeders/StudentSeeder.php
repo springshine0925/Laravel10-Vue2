@@ -4,19 +4,20 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\User;
+use App\Models\Student;
 
-class UserSeeder extends Seeder
+class StudentSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        User::create([
-            'name' => 'John Doe',
-            'email' => 'john@example.com',
-            'password' => bcrypt('123456'),
+        Student::create([
+            'firstname' => 'John',
+            'middlename' => 'Smiss',
+            'lastname' => 'Doe',
+            'birthday'=> '2010-05-01'
         ]);
     }
 }
