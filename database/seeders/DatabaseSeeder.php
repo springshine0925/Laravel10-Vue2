@@ -4,8 +4,10 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Database\Seeders\UserSeeder;
-use App\Database\Seeders\StudentSeeder;
+use Database\Seeders\UserSeeder;
+use Database\Seeders\StudentSeeder;
+// use UserSeeder;
+// use StudentSeeder;
 
 class DatabaseSeeder extends Seeder
 {

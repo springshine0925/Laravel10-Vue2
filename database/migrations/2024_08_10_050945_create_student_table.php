@@ -17,8 +17,8 @@ return new class extends Migration
             $table->string('middlename');
             $table->string('lastname');
             $table->date('birthday');
-            $table->time('start_session');
-            $table->time('end_session');
+            $table->date('start_session');
+            $table->date('end_session');
             $table->timestamps();
         });
     }
